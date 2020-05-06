@@ -30,7 +30,7 @@ class Artist
   # end
 
   def self.all
-    @@artist
+    @@all
   end
 
   # def self.reset_all
