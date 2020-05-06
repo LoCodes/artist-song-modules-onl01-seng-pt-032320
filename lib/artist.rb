@@ -10,11 +10,12 @@ class Artist
   extend Findable
   #include Paramable
 
-  @@artists = []
+  @@all = []
 
   def initialize
     #@@artists << self
-    self.class.all << self
+    #self.class.all << self
+    @@all << self
     @songs = []
   end
 
