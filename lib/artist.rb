@@ -12,7 +12,7 @@ class Artist
   #
   # extend Memorable::ClassMethods
   # include Memorable::InstanceMethods
-  # 
+  #
   # extend Findable
   #include Paramable
 
@@ -30,7 +30,7 @@ class Artist
   # end
 
   def self.all
-    @@artists
+    @@artist
   end
 
   # def self.reset_all
